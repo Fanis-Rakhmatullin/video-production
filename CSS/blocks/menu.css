@@ -1,0 +1,29 @@
+.menu__item {
+  margin-right: 53px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #ff5400;
+}
+
+.menu__item--active .menu__link {
+color: #ff5400
+}
+
+.menu_footer {
+  top: 55px;
+  left: 294px;
+}

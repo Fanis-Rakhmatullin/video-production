@@ -1,0 +1,64 @@
+.discount {
+  margin-bottom: 146px;
+}
+
+.discount__highlight {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 47px;
+}
+
+.discount__list {
+  margin-bottom: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount__item {
+  height: 391px;
+  margin-right: 2%;
+  flex: 1;
+}
+
+.discount__item:last-child {
+  margin-right: 0;
+}
+
+.single-discount {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+
+.single-discount__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+
+.single-discount:hover .single-discount__image {
+  opacity: 100%;
+}
+
+
+.single-discount__description  {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 28px 30px;
+  min-height: 140px;
+}
+
+.single-discount__date {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.single-discount__name {
+  font-size: 24px;
+  font-weight: bold;
+}

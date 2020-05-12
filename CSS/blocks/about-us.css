@@ -1,0 +1,52 @@
+
+.about-us {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.about-us:before {
+  content:"";
+  width: 488px;
+  height: 500px;
+  background: url("../../images/decor/cameraman.jpg") center center / cover no-repeat;
+  border-radius: 6px;
+  display: block;
+}
+
+.about-us__description {
+  background: #fff;
+  padding: 71px 98px;
+  max-width: 780px;
+  margin-left: -128px;
+  margin-top: 105px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-us__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 29px;
+  color:#000;
+}
+
+.about-us__article {
+  color: #303030;
+  margin-bottom: 42px;
+  line-height: 1.69;
+}
+
+.about-us__article p {
+  margin-bottom: 20px;
+}
+
+
+.about-us__article p:last-child {
+  margin-bottom: 0;
+}
+
+.button_size_smaller {
+  padding: 15px 34px;
+}

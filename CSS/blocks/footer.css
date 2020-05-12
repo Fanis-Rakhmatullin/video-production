@@ -1,0 +1,25 @@
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_main-page {
+  border-top: 1px solid #2f3031;
+  height: 146px;
+}
+
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col_align_right {
+  justify-content: flex-end;
+}
+
+.footer_inner-page {
+  padding: 39px 0 33px;
+}

@@ -1,0 +1,25 @@
+.button {
+  border-radius: 27.5px;
+  padding: 17px 47px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button_color_orange {
+  background: #ff5300;
+}
+
+.button_color_white {
+  background: #fff;
+  color: #ff5400;
+  padding: 15px 45px;
+  border: 2px solid #ff5400;
+}
+
+.button:hover {
+  background: #ff3900;
+  color: #fff;
+}

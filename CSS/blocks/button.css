@@ -23,3 +23,30 @@
   background: #ff3900;
   color: #fff;
 }
+
+.button_color_grey {
+  background: #8e8e8e;
+}
+
+.button_color_grey:hover {
+  background: #424242;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  margin-right: 10px;
+  padding: 19px 50px;
+}
+
+.form__button:last-child {
+  margin-right: 0;
+}
+
+.form__buttons .button_color_grey {
+  padding: 19px 35px;
+}
+

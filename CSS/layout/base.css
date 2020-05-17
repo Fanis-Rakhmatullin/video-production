@@ -379,6 +379,8 @@ img {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-right: -10px;
+  margin-bottom: -9px; 
 }
 
 

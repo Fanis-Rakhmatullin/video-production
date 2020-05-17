@@ -327,7 +327,8 @@ img {
 .reviews {
   column-count: 2;
   column-gap: 30px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  margin-bottom: -19px;
 }
 
 .reviews__item {
@@ -348,12 +349,15 @@ img {
   margin-bottom: 25px;
 }
 
+.review__photo {
+  margin-right: 25px;
+}
+
 .avatar {
   width: 139px;
   height: 139px;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 25px;
 }
 
 .review__user {
@@ -389,7 +393,7 @@ img {
 
 .review__tag-item {
   margin-right: 10px;
-  margin-bottom: 9px;
+  margin-bottom: 9px;   
 }
 
 .review__tag-item:last-child {
@@ -421,7 +425,7 @@ img {
 
 .main-content--page--service {
   padding-top: 101px;
-  padding-bottom: 93px;
+  padding-bottom: 92px;
 }
 
 .separator {
@@ -479,7 +483,7 @@ img {
 
 .form__controls {
   display: flex;
-  margin-bottom: 28px;
+  margin-bottom: 36px;
   align-items: baseline;
 }
 
@@ -493,6 +497,8 @@ img {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
+  margin-right: -10px;
+  margin-bottom: -9px;
 }
 
 .controls__item {

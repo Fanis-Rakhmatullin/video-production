@@ -38,8 +38,9 @@
   background: #d1d1d1;
   border-radius: 4px;
   padding: 18px;
-  top: 156%;
-  min-width: 163%;
+  top: 100%;
+  margin-top: 10px;
+  min-width: 160px;
   right: -99999px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -61,7 +62,7 @@
   height: 15px;
   left: 0;
   right: 0;
-  top: -15px;
+  bottom: 100%;
 }
 
 .dropdown__text {

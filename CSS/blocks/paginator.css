@@ -27,6 +27,7 @@
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+  transition: 0.3s;
 }
 
 .paginator__item_active .paginator__link {

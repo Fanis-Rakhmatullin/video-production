@@ -229,6 +229,7 @@ img {
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
+  transition: 0.3s;
 }
 
 .partners__link:hover {
@@ -237,28 +238,88 @@ img {
 
 /* WELCOME PAGE */
 
-.wrapper {
-  background: url(../../images/bg/welcome.jpg) top center no-repeat;
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: url(../../images/bg/welcome.jpg) center center / cover no-repeat;
+  overflow: hidden;
 }
 
-.welcome {
-  margin: 163px auto;
-  width: 1128px;
-  height: 643px;
-  background: url("../../images/bg/camera.png");
+.central {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.welcome__headline {
-  width: 45%;
+.central__logo {
   margin-bottom: 39px;
+  width: 508px;
 }
 
-.welcome__logo {
-  width: 100%;
+.central__logo--animation {
+ opacity: 0;
+ animation: rotateIn 1.3s;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(.53,.53,.59,.57);
+}
+
+
+@keyframes  rotateIn{
+  from {
+    transform: scale(0.15) rotate(-40deg);
+    opacity: 0;
+ }
+  30% {
+    transform: scale(0.40) rotate(20deg);
+    opacity: 0.45;
+  }
+
+  60% {
+    transform: scale(0.8) rotate(-10deg);
+    opacity: 0.8;
+  }
+
+
+  90% {
+    transform: scale(1.2) rotate(5deg);
+    opacity: 0.9;
+  }
+ 
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.button--animation {
+  opacity: 0;
+  animation: appear 1.3s;
+  animation-fill-mode: forwards;
+  /* animation-timing-function: cubic-bezier(.53,.53,.59,.57); */
+}
+
+
+@keyframes appear {
+ from {
+    opacity: 0.1;
+    transform: scale(0.1);
+ }
+
+  90% {
+  opacity: 0.85;
+    transform: scale(1.2);
+  }
+
+ to {
+   opacity: 1;
+   transform: scale(1);
+ }
 }
 
 /* REVIEWS PAGE */
@@ -315,6 +376,7 @@ img {
   align-items: flex-start;
   flex-wrap: wrap;
 }
+
 
 .tag {
   font-size: 13px;
@@ -399,6 +461,7 @@ img {
   padding: 22px 29px 19px;
   font-size: 18px;
   color: #1a1b1e;
+  outline: none;
 }
 
 .form__input:last-child {
@@ -439,6 +502,10 @@ img {
 
 .controls__elem {
   cursor: pointer;
+}
+
+.controls__tag {
+  transition: 0.3s;
 }
 
 .controls__checkbox:checked ~ .controls__tag {

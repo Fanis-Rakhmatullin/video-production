@@ -6,6 +6,7 @@
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+  transition: 0.3s;
 }
 
 .button_color_orange {

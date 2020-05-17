@@ -37,6 +37,7 @@
   height: 100%;
   object-fit: cover;
   opacity: 70%;
+  transition: 0.3s;
 }
 
 .single-discount:hover .single-discount__image {

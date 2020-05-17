@@ -20,6 +20,7 @@
   border: solid 7px transparent;
   display: flex;
   flex-direction: column;
+  transition: 0.3s;
 }
 
 .offer:hover {

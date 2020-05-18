@@ -1,0 +1,21 @@
+.separator {
+  background: #373737 url(../../images/bg/audience.jpg) right 50% center no-repeat;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.separator__content {
+  max-width: 49%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.separator__title span {
+  color: #ff5400
+}

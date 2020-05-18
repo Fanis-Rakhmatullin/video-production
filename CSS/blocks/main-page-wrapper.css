@@ -2,3 +2,11 @@
   background: url(../../images/bg/hero.jpg) center top no-repeat, 
   url(../../images/bg/bottom-pic.jpg) center bottom 284px no-repeat;
 }
+
+.section__hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 573px;
+  margin-bottom: 239px;
+}

@@ -1,0 +1,13 @@
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 8px 20px;
+  border-radius: 30px;
+  background-color: #e7e7e7;
+  white-space: nowrap;
+}
+
+
+.tag--bg--pink {
+  background-color: #f2d3c8;
+}

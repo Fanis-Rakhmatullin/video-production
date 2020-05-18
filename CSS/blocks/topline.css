@@ -1,0 +1,11 @@
+.topline {
+  background: url('../../images/bg/top-line.jpg') center top no-repeat;
+}
+
+.topline__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 26px;
+  min-height: 412px;
+}

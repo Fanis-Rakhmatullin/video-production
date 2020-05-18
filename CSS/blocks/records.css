@@ -1,0 +1,46 @@
+.records__list {
+  color: #303030;
+  margin-bottom: 42px;
+}
+
+.record {
+  display: flex;
+  padding: 25px 0px;
+}
+
+
+.records__item:last-child {
+  margin-bottom: 0;
+}
+
+.record__pic {
+  width: 40%;
+  height: 330px;
+  margin-right: 5%;
+}
+
+.record__pic-elem {
+  border-radius: 6px;
+  height: 100%;
+  width: 100%;
+}
+
+.record__description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 622px;
+}
+
+.record__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 28px;
+  padding-top: 13px;
+}
+
+.record__text {
+  line-height: 1.7;
+  margin-bottom: 32px;
+}

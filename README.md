@@ -4,3 +4,5 @@
 ### Тема курса:
 * HTML / CSS
 * БЭМ 
+
+#### [Ссылка на GitHub Pages](https://fanis-rakhmatullin.github.io/video-production/)
